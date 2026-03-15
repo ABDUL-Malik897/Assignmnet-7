@@ -1,0 +1,28 @@
+{
+  "name": "assignment-7",
+  "version": "1.0.0",
+  "description": " Identifying APIs for To-Do List App",
+  "homepage": "https://github.com/ABDUL-Malik897/Assignmnet-7#readme",
+  "bugs": {
+    "url": "https://github.com/ABDUL-Malik897/Assignmnet-7/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABDUL-Malik897/Assignmnet-7.git"
+  },
+  "license": "ISC",
+  "author": "Abdul Malik",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

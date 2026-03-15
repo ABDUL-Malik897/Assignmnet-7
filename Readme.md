@@ -13,13 +13,13 @@ functionalities and endpoints required for all operations which we will do in th
 
 In the previous classes, you've been developing a To-Do List app using React.js. Now, let's shift our focus to planning the necessary APIs without actual implementation. 
 
-Consider the following tasks and brainstorm the APIs needed for each functionality:
-For Example You Need to Add a task so you can make pointers like these
 
-### 1.Add Task:
-        >> Identify the API endpoint for creating a new task.
-        >> Determine the information to be included in the request body for creating a task.
-        >> Outline the logic for generating a unique identifier for each task.
+## Methods:
+
+    >>GET: Fetch all tasks.
+    >>POST: Add a new task.
+    >>PUT:Edit a task
+    >>DELETE : Remove a task.
 
 
 ## Submission Guidelines:

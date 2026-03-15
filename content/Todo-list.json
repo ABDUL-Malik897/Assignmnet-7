@@ -1,0 +1,23 @@
+{
+    "todos": [
+        {
+        "id": 1,
+        "title": "Buy groceries for the week ahead",
+        "content": "Milk, eggs, bread, fruits, vegetables, and snacks for the family dinner on Saturday night.", 
+        "completed": false
+        },
+        {
+        "id": 2,
+        "title": "Walk the dog in the evening park for 30 minutes",
+        "content": "Take the dog for a walk in the nearby park after dinner to get some fresh air and exercise.",
+        "completed": true
+        },
+        {
+        "id": 3,
+        "title": "Finish homework assignments for math and science subjects",
+        "content": "Complete the math problems and science project due next week before going to bed.",
+        "completed": false
+        }
+        
+    ]
+}
