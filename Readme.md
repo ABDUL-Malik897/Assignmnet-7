@@ -32,3 +32,20 @@ Provide a brief overview of how these APIs collectively fulfil the CRUD operatio
 
 Comment on any potential challenges you foresee in implementing these APIs.
 
+
+## How to Run 
+
+### Install Dependencies
+
+>> npm i 
+>> npm i express
+>> npm i nodemon -D
+>> npm i uuid
+
+### Starting Server
+
+>> npm start/npm run start 
+    node index.js
+>> npm run dev
+    nodemon index.js
+
