@@ -12,6 +12,14 @@ app.get('/',(req,res)=>{
 
 app.use('/',methodRouter)
 
+app.use((err, req, res, next) => {
+    const status = err.status || 500;
+
+    res.status(status).json({
+        error: status === 500 ? "Internal Server Error" : err.message
+    });
+});
+
 app.listen(port,()=>{
     console.log(`Listing at : http://localhost:${port}`);
 })

@@ -8,6 +8,11 @@ const { todos } = require('../content/Todo-list.json')
 
 
 Router.get("/list",(req,res)=>{
+    if(!todos || todos.length === 0){
+        res.status(404).json({
+            message : "No Todos found"
+        })
+    }
     res.status(200).json({
         success : true ,
         data : todos
